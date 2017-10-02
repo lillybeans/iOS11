@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91704341F812DC600C42999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91704331F812DC600C42999 /* AppDelegate.swift */; };
+		E91704361F812DC600C42999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91704351F812DC600C42999 /* ViewController.swift */; };
+		E91704391F812DC600C42999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91704371F812DC600C42999 /* Main.storyboard */; };
+		E917043B1F812DC600C42999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E917043A1F812DC600C42999 /* Assets.xcassets */; };
+		E917043E1F812DC600C42999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E917043C1F812DC600C42999 /* LaunchScreen.storyboard */; };
+		E91704491F812DC600C42999 /* WhatsMyPhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91704481F812DC600C42999 /* WhatsMyPhoneNumberTests.swift */; };
+		E91704541F812DC600C42999 /* WhatsMyPhoneNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91704531F812DC600C42999 /* WhatsMyPhoneNumberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E91704451F812DC600C42999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91704281F812DC500C42999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E917042F1F812DC600C42999;
+			remoteInfo = WhatsMyPhoneNumber;
+		};
+		E91704501F812DC600C42999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91704281F812DC500C42999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E917042F1F812DC600C42999;
+			remoteInfo = WhatsMyPhoneNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E91704301F812DC600C42999 /* WhatsMyPhoneNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsMyPhoneNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91704331F812DC600C42999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E91704351F812DC600C42999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E91704381F812DC600C42999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E917043A1F812DC600C42999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E917043D1F812DC600C42999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E917043F1F812DC600C42999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91704441F812DC600C42999 /* WhatsMyPhoneNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsMyPhoneNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91704481F812DC600C42999 /* WhatsMyPhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsMyPhoneNumberTests.swift; sourceTree = "<group>"; };
+		E917044A1F812DC600C42999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E917044F1F812DC600C42999 /* WhatsMyPhoneNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsMyPhoneNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91704531F812DC600C42999 /* WhatsMyPhoneNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsMyPhoneNumberUITests.swift; sourceTree = "<group>"; };
+		E91704551F812DC600C42999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E917042D1F812DC600C42999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91704411F812DC600C42999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E917044C1F812DC600C42999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91704271F812DC500C42999 = {
+			isa = PBXGroup;
+			children = (
+				E91704321F812DC600C42999 /* WhatsMyPhoneNumber */,
+				E91704471F812DC600C42999 /* WhatsMyPhoneNumberTests */,
+				E91704521F812DC600C42999 /* WhatsMyPhoneNumberUITests */,
+				E91704311F812DC600C42999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91704311F812DC600C42999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91704301F812DC600C42999 /* WhatsMyPhoneNumber.app */,
+				E91704441F812DC600C42999 /* WhatsMyPhoneNumberTests.xctest */,
+				E917044F1F812DC600C42999 /* WhatsMyPhoneNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91704321F812DC600C42999 /* WhatsMyPhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				E91704331F812DC600C42999 /* AppDelegate.swift */,
+				E91704351F812DC600C42999 /* ViewController.swift */,
+				E91704371F812DC600C42999 /* Main.storyboard */,
+				E917043A1F812DC600C42999 /* Assets.xcassets */,
+				E917043C1F812DC600C42999 /* LaunchScreen.storyboard */,
+				E917043F1F812DC600C42999 /* Info.plist */,
+			);
+			path = WhatsMyPhoneNumber;
+			sourceTree = "<group>";
+		};
+		E91704471F812DC600C42999 /* WhatsMyPhoneNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				E91704481F812DC600C42999 /* WhatsMyPhoneNumberTests.swift */,
+				E917044A1F812DC600C42999 /* Info.plist */,
+			);
+			path = WhatsMyPhoneNumberTests;
+			sourceTree = "<group>";
+		};
+		E91704521F812DC600C42999 /* WhatsMyPhoneNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E91704531F812DC600C42999 /* WhatsMyPhoneNumberUITests.swift */,
+				E91704551F812DC600C42999 /* Info.plist */,
+			);
+			path = WhatsMyPhoneNumberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E917042F1F812DC600C42999 /* WhatsMyPhoneNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91704581F812DC600C42999 /* Build configuration list for PBXNativeTarget "WhatsMyPhoneNumber" */;
+			buildPhases = (
+				E917042C1F812DC600C42999 /* Sources */,
+				E917042D1F812DC600C42999 /* Frameworks */,
+				E917042E1F812DC600C42999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsMyPhoneNumber;
+			productName = WhatsMyPhoneNumber;
+			productReference = E91704301F812DC600C42999 /* WhatsMyPhoneNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91704431F812DC600C42999 /* WhatsMyPhoneNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E917045B1F812DC600C42999 /* Build configuration list for PBXNativeTarget "WhatsMyPhoneNumberTests" */;
+			buildPhases = (
+				E91704401F812DC600C42999 /* Sources */,
+				E91704411F812DC600C42999 /* Frameworks */,
+				E91704421F812DC600C42999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91704461F812DC600C42999 /* PBXTargetDependency */,
+			);
+			name = WhatsMyPhoneNumberTests;
+			productName = WhatsMyPhoneNumberTests;
+			productReference = E91704441F812DC600C42999 /* WhatsMyPhoneNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E917044E1F812DC600C42999 /* WhatsMyPhoneNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E917045E1F812DC600C42999 /* Build configuration list for PBXNativeTarget "WhatsMyPhoneNumberUITests" */;
+			buildPhases = (
+				E917044B1F812DC600C42999 /* Sources */,
+				E917044C1F812DC600C42999 /* Frameworks */,
+				E917044D1F812DC600C42999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91704511F812DC600C42999 /* PBXTargetDependency */,
+			);
+			name = WhatsMyPhoneNumberUITests;
+			productName = WhatsMyPhoneNumberUITests;
+			productReference = E917044F1F812DC600C42999 /* WhatsMyPhoneNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91704281F812DC500C42999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Lilly Tong";
+				TargetAttributes = {
+					E917042F1F812DC600C42999 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					E91704431F812DC600C42999 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E917042F1F812DC600C42999;
+					};
+					E917044E1F812DC600C42999 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E917042F1F812DC600C42999;
+					};
+				};
+			};
+			buildConfigurationList = E917042B1F812DC500C42999 /* Build configuration list for PBXProject "WhatsMyPhoneNumber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91704271F812DC500C42999;
+			productRefGroup = E91704311F812DC600C42999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E917042F1F812DC600C42999 /* WhatsMyPhoneNumber */,
+				E91704431F812DC600C42999 /* WhatsMyPhoneNumberTests */,
+				E917044E1F812DC600C42999 /* WhatsMyPhoneNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E917042E1F812DC600C42999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E917043E1F812DC600C42999 /* LaunchScreen.storyboard in Resources */,
+				E917043B1F812DC600C42999 /* Assets.xcassets in Resources */,
+				E91704391F812DC600C42999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91704421F812DC600C42999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E917044D1F812DC600C42999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E917042C1F812DC600C42999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91704361F812DC600C42999 /* ViewController.swift in Sources */,
+				E91704341F812DC600C42999 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91704401F812DC600C42999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91704491F812DC600C42999 /* WhatsMyPhoneNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E917044B1F812DC600C42999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91704541F812DC600C42999 /* WhatsMyPhoneNumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91704461F812DC600C42999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E917042F1F812DC600C42999 /* WhatsMyPhoneNumber */;
+			targetProxy = E91704451F812DC600C42999 /* PBXContainerItemProxy */;
+		};
+		E91704511F812DC600C42999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E917042F1F812DC600C42999 /* WhatsMyPhoneNumber */;
+			targetProxy = E91704501F812DC600C42999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E91704371F812DC600C42999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91704381F812DC600C42999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E917043C1F812DC600C42999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E917043D1F812DC600C42999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91704561F812DC600C42999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E91704571F812DC600C42999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91704591F812DC600C42999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsMyPhoneNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LillyTong.WhatsMyPhoneNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E917045A1F812DC600C42999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsMyPhoneNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LillyTong.WhatsMyPhoneNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E917045C1F812DC600C42999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsMyPhoneNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LillyTong.WhatsMyPhoneNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsMyPhoneNumber.app/WhatsMyPhoneNumber";
+			};
+			name = Debug;
+		};
+		E917045D1F812DC600C42999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsMyPhoneNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LillyTong.WhatsMyPhoneNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsMyPhoneNumber.app/WhatsMyPhoneNumber";
+			};
+			name = Release;
+		};
+		E917045F1F812DC600C42999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsMyPhoneNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LillyTong.WhatsMyPhoneNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsMyPhoneNumber;
+			};
+			name = Debug;
+		};
+		E91704601F812DC600C42999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhatsMyPhoneNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LillyTong.WhatsMyPhoneNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsMyPhoneNumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E917042B1F812DC500C42999 /* Build configuration list for PBXProject "WhatsMyPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91704561F812DC600C42999 /* Debug */,
+				E91704571F812DC600C42999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91704581F812DC600C42999 /* Build configuration list for PBXNativeTarget "WhatsMyPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91704591F812DC600C42999 /* Debug */,
+				E917045A1F812DC600C42999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E917045B1F812DC600C42999 /* Build configuration list for PBXNativeTarget "WhatsMyPhoneNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E917045C1F812DC600C42999 /* Debug */,
+				E917045D1F812DC600C42999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E917045E1F812DC600C42999 /* Build configuration list for PBXNativeTarget "WhatsMyPhoneNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E917045F1F812DC600C42999 /* Debug */,
+				E91704601F812DC600C42999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91704281F812DC500C42999 /* Project object */;
+}
