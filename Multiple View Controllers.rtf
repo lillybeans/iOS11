@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 HiraginoSansGB-W3;\f2\fnil\fcharset128 HiraginoSans-W3;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Project: Advanced Segways\
+\
+Two View Controllers\
+\
+1. Create Single View Application\
+2. Go to Main Storyboard\
+3. Drag into storyboard a new View Controller\
+4. File > New Cocoa Touch Class > SecondViewController\
+5. Go
+\f1  to main storyboard, click on second view controller, click on Identity Inspector (the\
+Icon at the top in the right pane that looks like a business card), change Class to\
+\'a1\'b0SecondViewController\'a1\'b1
+\f0 \
+6. Add a button on first controller called \'93Jump to second controller\'94\
+7. Add a button on second controller called \'93jump to first controlle
+\f2 r\'81\'68\
+8. Drag and hold the button on second view controller to point to anywhere on the first controller, then in the pop-up menu Action Segue and select \'81\'67Show\'81\'68\
+9. Drag and hold the button on first view controller to point to anywhere on the second view controller, then in the pop-up menu Action Segue and select \'81\'67Show\'81\'68\
+\
+Passing variables between two controllers\
+\
+1. Go to main storyboard, click on the segway (arrow) that goes from the first view controller to the second view controller, and in Attribute Inspector (slider icon), under\
+Identifier put \'81\'67toSecondViewController\'81\'68\
+2. In your code for ViewController (the first view controller), create a prepare function (system will autopopulate by default), and check if segue.identifier == \'81\'67toSecondViewController\'81\'68, if it is, perform certain actions inside the \'81\'67if\'81\'68 block\
+}
