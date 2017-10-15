@@ -11,7 +11,7 @@ import UIKit
 var places = [Dictionary<String,String>()] //each record is a dictionary with keys: name, lat, lon
 var activePlace = -1 //need to pass this to the other view controller
 
-class PlacesViewController: UITableViewController {
+class PlacesViewController: UITableViewController { //here no need for UITableViewDelegate, UITableViewDataSource
 
     @IBOutlet var table: UITableView!
     
