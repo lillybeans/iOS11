@@ -7,17 +7,27 @@
 //
 
 import UIKit
+import WebKit
 
+//details page will actually display the blogpost
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
-
+    @IBOutlet var webView: WKWebView! //container for displaying html
+    
     func configureView() {
         // Update the user interface for the detail item.
+        
+
+        
         if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.timestamp!.description
+            
+            self.title = detail.value(forKey:"title") as! String //title of the article = title of view controller
+            
+            if let blogWebView = self.webView { //load into webview
+                blogWebView.loadHTMLString(detail.value(forKey:"content") as! String, baseURL: nil) //load content as html
+                
             }
         }
     }
@@ -33,7 +43,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: Event? {
+    var detailItem: Blog? {
         didSet {
             // Update the view.
             configureView()

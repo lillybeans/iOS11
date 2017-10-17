@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Camera_Roll" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPJ-fJ-ybW">
+                                <rect key="frame" x="138" y="78" width="99" height="30"/>
+                                <state key="normal" title="Choose Image"/>
+                                <connections>
+                                    <action selector="chooseImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xKn-cV-tzG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IBv-iI-gwA">
+                                <rect key="frame" x="0.0" y="157" width="375" height="287"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="gio-Md-uYp"/>
+                                    <constraint firstAttribute="height" constant="287" id="oJf-SN-V4S"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yPJ-fJ-ybW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BEX-PZ-tCi"/>
+                            <constraint firstItem="yPJ-fJ-ybW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="Lcn-WS-gza"/>
+                            <constraint firstItem="IBv-iI-gwA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NBg-YB-bce"/>
+                            <constraint firstItem="IBv-iI-gwA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b9J-my-58F"/>
+                            <constraint firstItem="IBv-iI-gwA" firstAttribute="top" secondItem="yPJ-fJ-ybW" secondAttribute="bottom" constant="49" id="bdF-Mx-B3m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="IBv-iI-gwA" id="1y9-lb-gWM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

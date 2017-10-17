@@ -1,9 +1,9 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red170\green13\blue145;\red255\green255\blue255;\red0\green0\blue0;
-}
-{\*\expandedcolortbl;;\csgenericrgb\c66500\c5200\c56900;\csgray\c100000;\csgenericrgb\c0\c0\c0;
-}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red170\green13\blue145;
+\red104\green26\blue29;\red255\green255\blue255;\red36\green38\blue41;\red43\green39\blue19;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\csgray\c100000;\csgenericrgb\c66500\c5200\c56900;
+\cssrgb\c49020\c15294\c15294;\csgenericrgb\c100000\c100000\c100000;\cssrgb\c18824\c20000\c21176;\cssrgb\c22353\c20000\c9412;}
 \margl1440\margr1440\vieww10800\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
@@ -13,40 +13,45 @@ In info.plist\
 \
 \pard\tx543\pardeftab543\pardirnatural\partightenfactor0
 
-\f1\fs22 \cf2 \cb3 <key>\cf4 NSAppTransportSecurity\cf2 </key>
+\f1\fs22 \cf2 \cb3     \cf4 <key>\cf2 NSAppTransportSecurity\cf4 </key>
 \f0\fs24 \cf0 \
 
-\f1\fs22 \cf4 	\cf2 <dict>
+\f1\fs22 \cf2     \cf4 <dict>
 \f0\fs24 \cf0 \
 
-\f1\fs22 \cf4 		\cf2 <key>\cf4 NSExceptionDomains\cf2 </key>
+\f1\fs22 \cf2         \cf4 <key>\cf2 NSAllowsArbitraryLoads\cf4 </key>
 \f0\fs24 \cf0 \
 
-\f1\fs22 \cf4 		\cf2 <dict>
+\f1\fs22 \cf2         \cf4 <true/>
 \f0\fs24 \cf0 \
 
-\f1\fs22 \cf4 			\cf2 <key>\cf4 stackoverflow.com\cf2 </key>
-\f0\fs24 \cf0 \
+\f1\fs22 \cf2     \cf4 </dict>\
+\
+\cf2 If above doesn\'92t work\'85
+\f0\fs24 \cf2 \cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
 
-\f1\fs22 \cf4 			\cf2 <dict>
-\f0\fs24 \cf0 \
+\f1\fs22 \cf4 \cb3 \
+\pard\pardeftab720\sl300\partightenfactor0
 
-\f1\fs22 \cf4 				\cf2 <key>\cf4 NSIncludesSubdomains\cf2 </key>
-\f0\fs24 \cf0 \
-
-\f1\fs22 \cf4 				\cf2 <true/>
-\f0\fs24 \cf0 \
-
-\f1\fs22 \cf4 				\cf2 <key>\cf4 NSTemporaryExceptionAllowsInsecureHTTPLoads\cf2 </key>
-\f0\fs24 \cf0 \
-
-\f1\fs22 \cf4 				\cf2 <true/>
-\f0\fs24 \cf0 \
-
-\f1\fs22 \cf4 			\cf2 </dict>
-\f0\fs24 \cf0 \
-
-\f1\fs22 \cf4 		\cf2 </dict>
-\f0\fs24 \cf0 \
-
-\f1\fs22 \cf4 	\cf2 </dict>}
+\fs26 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 <key>\cf7 \strokec7 NSAppTransportSecurity\cf5 \strokec5 </key>\cf7 \strokec7 \
+\cf5 \strokec5 <dict>\cf7 \strokec7 \
+    \cf5 \strokec5 <key>\cf7 \strokec7 NSAllowsArbitraryLoads\cf5 \strokec5 </key>\cf7 \strokec7 \
+    \cf5 \strokec5 <true/>\cf7 \strokec7 \
+    \cf5 \strokec5 <key>\cf7 \strokec7 NSExceptionDomains\cf5 \strokec5 </key>\cf7 \strokec7 \
+    \cf5 \strokec5 <dict>\cf7 \strokec7 \
+        \cf5 \strokec5 <key>\cf7 \strokec7 example.com\cf5 \strokec5 </key>\cf7 \strokec7 \
+        \cf5 \strokec5 <dict>\cf7 \strokec7 \
+            \cf5 \strokec5 <key>\cf7 \strokec7 NSExceptionAllowsInsecureHTTPLoads\cf5 \strokec5 </key>\cf7 \strokec7 \
+            \cf5 \strokec5 <true/>\cf7 \strokec7 \
+            \cf5 \strokec5 <key>\cf7 \strokec7 NSIncludesSubdomains\cf5 \strokec5 </key>\cf7 \strokec7 \
+            \cf5 \strokec5 <true/>\cf7 \strokec7 \
+        \cf5 \strokec5 </dict>\cf7 \strokec7 \
+    \cf5 \strokec5 </di\cb1 ct>\cf7 \strokec7 \
+\cf5 \strokec5 </dict>\cf8 \strokec8 \
+\pard\pardeftab720\sl300\partightenfactor0
+\cf8 \
+}
