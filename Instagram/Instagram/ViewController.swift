@@ -63,7 +63,8 @@ class ViewController: UIViewController {
             UIApplication.shared.beginIgnoringInteractionEvents() //stop the user from being able to do anything else
             /** spinner ends: part 1 **/
             
-            if (signUpModeActive){ //if signup
+            //Sign up
+            if (signUpModeActive){
                 var user = PFUser()
                 
                 user.username = email.text
@@ -86,8 +87,9 @@ class ViewController: UIViewController {
                         self.performSegue(withIdentifier: "showUserTable", sender: self)
                     }
                 })
-                
-            } else { //if login
+            
+            //Log in
+            } else { 
                 PFUser.logInWithUsername(inBackground: email.text!, password: password.text!, block: {(user,error) in
                     if user != nil {
                         print("login successful!")
